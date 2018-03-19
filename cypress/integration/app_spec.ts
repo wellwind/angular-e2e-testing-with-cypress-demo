@@ -7,5 +7,5 @@ describe('app', () => {
   it('loads by root path', () => {
     cy.visit('/');
     cy.get('app-root h1').contains('Welcome to app!');
-  })
+  });
 });
