@@ -3,6 +3,7 @@
   "include": [
     "integration/*.ts",
     "support/**/*.ts",
-    "../node_modules/cypress"
+    "../node_modules/cypress",
+    "typings.d.ts"
   ]
 }
